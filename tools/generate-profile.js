@@ -346,19 +346,19 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addDivider(slide);
   addBilingualParagraph(
     slide,
-    "نحن شركة وساطة وتوريد مرن نربط منظمي الفعاليات والشركات بشبكة من الموردين. نتدخل عندما يصبح الوقت ضيقًا، أو عندما يتوفر المنتج خارج مسار الشراء المعتاد، لننسق البحث والعرض والشراء والفوترة والمتابعة حتى التسليم.",
-    "Last Minute is a flexible sourcing and brokerage company connecting event organizers and businesses with a supplier network. We step in when time is limited or when the right product sits outside the usual procurement route, coordinating sourcing, quotation, purchasing, invoicing and follow-through to delivery.",
-    { y: 2.55, h: 2.55, arSize: 18.5, enSize: 15 }
+    "نربط منظمي الفعاليات بالمورد المناسب للطلبات العاجلة، وننسق الشراء والفوترة حتى التسليم.",
+    "We match urgent event needs with the right supplier, then coordinate purchase, invoicing and delivery.",
+    { y: 2.55, h: 2.55, arSize: 22, enSize: 18 }
   );
-  slide.addShape(SH.RECTANGLE, { x: 0.72, y: 5.52, w: 3.62, h: 0.8, fill: { color: C.white }, line: { color: C.line } });
-  slide.addShape(SH.RECTANGLE, { x: 4.85, y: 5.52, w: 3.62, h: 0.8, fill: { color: C.white }, line: { color: C.line } });
-  slide.addShape(SH.RECTANGLE, { x: 8.98, y: 5.52, w: 3.64, h: 0.8, fill: { color: C.navy }, line: { color: C.navy } });
-  addAr(slide, "سرعة الاستجابة", { x: 2.0, y: 5.69, w: 2.05, h: 0.24, fontSize: 13, bold: true, color: C.ink });
-  addEn(slide, "RESPONSIVE", { x: 0.98, y: 5.72, w: 1.0, h: 0.18, fontSize: 8, bold: true, color: C.tealDark });
-  addAr(slide, "تنسيق واضح", { x: 6.12, y: 5.69, w: 2.05, h: 0.24, fontSize: 13, bold: true, color: C.ink });
-  addEn(slide, "CLEAR", { x: 5.12, y: 5.72, w: 0.8, h: 0.18, fontSize: 8, bold: true, color: C.tealDark });
-  addAr(slide, "شبكة مرنة", { x: 10.23, y: 5.69, w: 2.05, h: 0.24, fontSize: 13, bold: true, color: C.white });
-  addEn(slide, "FLEXIBLE", { x: 9.25, y: 5.72, w: 0.85, h: 0.18, fontSize: 8, bold: true, color: C.teal });
+  slide.addShape(SH.RECTANGLE, { x: 0.72, y: 4.88, w: 3.62, h: 1.08, fill: { color: C.white }, line: { color: C.line } });
+  slide.addShape(SH.RECTANGLE, { x: 4.85, y: 4.88, w: 3.62, h: 1.08, fill: { color: C.white }, line: { color: C.line } });
+  slide.addShape(SH.RECTANGLE, { x: 8.98, y: 4.88, w: 3.64, h: 1.08, fill: { color: C.navy }, line: { color: C.navy } });
+  addAr(slide, "سرعة الاستجابة", { x: 2.0, y: 5.18, w: 2.05, h: 0.28, fontSize: 14.5, bold: true, color: C.ink });
+  addEn(slide, "RESPONSIVE", { x: 0.98, y: 5.23, w: 1.0, h: 0.18, fontSize: 8.5, bold: true, color: C.tealDark });
+  addAr(slide, "تنسيق واضح", { x: 6.12, y: 5.18, w: 2.05, h: 0.28, fontSize: 14.5, bold: true, color: C.ink });
+  addEn(slide, "CLEAR", { x: 5.12, y: 5.23, w: 0.8, h: 0.18, fontSize: 8.5, bold: true, color: C.tealDark });
+  addAr(slide, "شبكة مرنة", { x: 10.23, y: 5.18, w: 2.05, h: 0.28, fontSize: 14.5, bold: true, color: C.white });
+  addEn(slide, "FLEXIBLE", { x: 9.25, y: 5.23, w: 0.85, h: 0.18, fontSize: 8.5, bold: true, color: C.teal });
 }
 
 // 03 — Purpose, mission, vision
@@ -370,9 +370,9 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addSectionTitle(slide, "وجهتنا", "Purpose · Mission · Vision", { dark: true });
   addDivider(slide, true);
   const items = [
-    ["01", "غايتنا", "PURPOSE", "إزالة العوائق التي تمنع وصول المنتج المناسب إلى موقع التنفيذ في الوقت المناسب.", "Remove the friction that keeps the right product from reaching the right place on time."],
-    ["02", "مهمتنا", "MISSION", "تبسيط التوريد العاجل والشراء المؤسسي عبر شبكة موردين وتنسيق تجاري واضح.", "Simplify urgent sourcing and corporate purchasing through a supplier network and clear coordination."],
-    ["03", "رؤيتنا", "VISION", "أن نكون حلقة الوصل الموثوقة للطلبات العاجلة في قطاع الفعاليات والأعمال.", "Become the trusted connection for urgent sourcing across events and business operations."]
+    ["01", "غايتنا", "PURPOSE", "إيصال المنتج المناسب في الوقت المناسب.", "The right product, at the right time."],
+    ["02", "مهمتنا", "MISSION", "تبسيط التوريد العاجل والشراء المؤسسي.", "Simplify urgent sourcing and corporate purchasing."],
+    ["03", "رؤيتنا", "VISION", "أن نكون حلقة الوصل الموثوقة للطلبات العاجلة.", "Be the trusted link for urgent requests."]
   ];
   items.forEach((item, i) => {
     const y = 2.55 + i * 1.26;
@@ -394,19 +394,19 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addSectionTitle(slide, "المشكلتان اللتان نعالجهما", "The two problems we solve", { arSize: 25 });
   addDivider(slide);
   addCard(slide, {
-    x: 0.72, y: 2.48, w: 5.75, h: 3.7, number: "01",
+    x: 0.72, y: 2.72, w: 5.75, h: 2.9, number: "01",
     arTitle: "تغيير في اللحظة الأخيرة",
     enTitle: "Last-minute change",
-    arText: "زيادة كمية، استبدال منتج، أو تعديل مواصفات في وقت يصعب فيه على المنظم إيجاد مورد متاح. يتحول التأخير هنا إلى خطر مباشر على جودة الفعالية.",
-    enText: "A quantity increase, replacement or specification change can become an immediate delivery risk.",
+    arText: "زيادة، استبدال أو تعديل يحتاج موردًا متاحًا فورًا.",
+    enText: "More units, a replacement or a new detail needs a supplier now.",
     dark: true
   });
   addCard(slide, {
-    x: 6.86, y: 2.48, w: 5.75, h: 3.7, number: "02",
+    x: 6.86, y: 2.72, w: 5.75, h: 2.9, number: "02",
     arTitle: "فجوة الشراء والفوترة",
     enTitle: "Purchasing & invoicing gap",
-    arText: "قد يكون المنتج متاحًا لدى متجر أو مورد لا يتوافق مباشرة مع إجراءات مشتريات الشركة. وجود المنتج وحده لا يكفي إذا تعذر شراؤه بطريقة مناسبة.",
-    enText: "The product may exist, yet remain inaccessible through the organizer’s normal procurement process.",
+    arText: "المنتج متاح، لكن شراءه يحتاج مسارًا وفاتورة واضحة.",
+    enText: "The item exists, but purchase needs a clear route and invoice.",
     teal: true
   });
 }
@@ -419,21 +419,21 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addSectionTitle(slide, "عندما يتغيّر الطلب", "When the requirement changes");
   addDivider(slide);
   const cases = [
-    ["زيادة", "QUANTITY", "زيادة عدد الضيوف أو الوحدات المطلوبة.", "More guests or units than originally planned."],
-    ["استبدال", "REPLACEMENT", "عدم توفر المنتج الأساسي والحاجة إلى بديل مناسب.", "The original item is unavailable and a suitable alternative is needed."],
-    ["تخصيص", "SPECIFICATION", "تعديل المقاس أو اللون أو التفاصيل التشغيلية.", "A size, color or operating detail changes."],
-    ["وقت", "DEADLINE", "تقليص المهلة المتاحة قبل التنفيذ.", "The available lead time suddenly becomes shorter."]
+    ["زيادة", "QUANTITY", "كمية إضافية.", "Additional units."],
+    ["استبدال", "REPLACEMENT", "بديل متاح.", "An available alternative."],
+    ["تخصيص", "SPECIFICATION", "مقاس أو لون جديد.", "A new size or color."],
+    ["وقت", "DEADLINE", "مهلة أقصر.", "A shorter lead time."]
   ];
   cases.forEach((c, i) => {
     const x = 0.72 + i * 3.0;
-    slide.addShape(SH.RECTANGLE, { x, y: 2.55, w: 2.68, h: 3.55, fill: { color: i === 3 ? C.navy : C.paper }, line: { color: i === 3 ? C.navy : C.line } });
-    addEn(slide, String(i + 1).padStart(2, "0"), { x: x + 0.25, y: 2.82, w: 0.5, h: 0.3, fontSize: 15, bold: true, color: C.teal });
-    addAr(slide, c[0], { x: x + 0.25, y: 3.35, w: 2.15, h: 0.45, fontSize: 21, bold: true, color: i === 3 ? C.white : C.ink });
-    addEn(slide, c[1], { x: x + 0.25, y: 3.9, w: 2.15, h: 0.22, fontSize: 8.5, bold: true, color: C.teal, charSpacing: 0.7 });
-    addAr(slide, c[2], { x: x + 0.25, y: 4.4, w: 2.15, h: 0.76, fontSize: 12.8, color: i === 3 ? "E1E9EE" : "435768", valign: "top" });
-    addEn(slide, c[3], { x: x + 0.25, y: 5.32, w: 2.15, h: 0.5, fontSize: 8.8, color: i === 3 ? "C3D0D9" : "435768", italic: true, valign: "top" });
+    slide.addShape(SH.RECTANGLE, { x, y: 2.72, w: 2.68, h: 2.9, fill: { color: i === 3 ? C.navy : C.paper }, line: { color: i === 3 ? C.navy : C.line } });
+    addEn(slide, String(i + 1).padStart(2, "0"), { x: x + 0.25, y: 2.98, w: 0.5, h: 0.3, fontSize: 15, bold: true, color: C.teal });
+    addAr(slide, c[0], { x: x + 0.25, y: 3.48, w: 2.15, h: 0.45, fontSize: 21, bold: true, color: i === 3 ? C.white : C.ink });
+    addEn(slide, c[1], { x: x + 0.25, y: 4.02, w: 2.15, h: 0.22, fontSize: 8.5, bold: true, color: C.teal, charSpacing: 0.7 });
+    addAr(slide, c[2], { x: x + 0.25, y: 4.46, w: 2.15, h: 0.42, fontSize: 13.5, color: i === 3 ? "E1E9EE" : "435768", valign: "top" });
+    addEn(slide, c[3], { x: x + 0.25, y: 5.05, w: 2.15, h: 0.28, fontSize: 9.2, color: i === 3 ? "C3D0D9" : "435768", italic: true, valign: "top" });
   });
-  addBottomTag(slide, "نبحث عن الخيار المناسب ضمن الوقت المتاح، لا ضمن الظروف المثالية.", "We source for the time available, not for ideal conditions.");
+  addBottomTag(slide, "نبحث ضمن الوقت المتاح.", "We source within the time available.");
 }
 
 // 06 — Procurement gap detail
@@ -442,7 +442,7 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   slide.background = { color: C.navyDark };
   addBrandPattern(slide, { x: 0, y: 0.8, w: 5.2, h: 6.7, transparency: 96 });
   addSlideChrome(slide, 6, true);
-  addSectionTitle(slide, "عندما يكون المنتج موجودًا لكن الشراء معقّد", "When the item exists but purchasing is difficult", { dark: true, arSize: 24, enSize: 10.8 });
+  addSectionTitle(slide, "المنتج متاح. الشراء يحتاج تنسيقًا.", "Available item. Coordinated purchase.", { dark: true, arSize: 24, enSize: 10.8 });
   addDivider(slide, true);
   const nodes = [
     { x: 0.82, ar: "المورد", en: "SUPPLIER", textAr: "منتج متاح", textEn: "Item available" },
@@ -459,7 +459,7 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
       slide.addShape(SH.LINE, { x: n.x + 3.35, y: 3.98, w: 0.69, h: 0, line: { color: C.teal, width: 3, beginArrowType: "none", endArrowType: "triangle" } });
     }
   });
-  addBottomTag(slide, "نحوّل التوفر في السوق إلى مسار شراء قابل للتنفيذ.", "We turn market availability into an actionable purchasing route.", true);
+  addBottomTag(slide, "نحوّل التوفر إلى شراء واضح.", "We turn availability into a clear purchase.", true);
 }
 
 // 07 — How it works
@@ -470,10 +470,10 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addSectionTitle(slide, "كيف نعمل", "How it works");
   addDivider(slide);
   const steps = [
-    ["01", "استلام الاحتياج", "RECEIVE", "المنتج، الكمية، المواصفات، الموقع، والوقت."],
-    ["02", "البحث والمطابقة", "MATCH", "مراجعة الموردين والتوفر والبدائل الممكنة."],
-    ["03", "العرض والتنسيق", "COORDINATE", "توضيح السعر والمدة ومسار الشراء والفوترة."],
-    ["04", "التوريد والمتابعة", "DELIVER", "متابعة التنفيذ حتى نقطة التسليم."]
+    ["01", "استلام الطلب", "RECEIVE", "المنتج، الكمية والموعد."],
+    ["02", "اختيار المورد", "MATCH", "التوفر والبدائل."],
+    ["03", "تأكيد العرض", "COORDINATE", "السعر ومسار الشراء."],
+    ["04", "التسليم", "DELIVER", "متابعة حتى الوصول."]
   ];
   slide.addShape(SH.LINE, { x: 1.3, y: 3.34, w: 10.55, h: 0, line: { color: C.line, width: 2 } });
   steps.forEach((s, i) => {
@@ -495,10 +495,10 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addSectionTitle(slide, "خدماتنا", "Our services");
   addDivider(slide);
   const services = [
-    ["A", "التوريد العاجل", "URGENT SOURCING", "البحث عن المنتجات والكميات المطلوبة ضمن الوقت المتاح."],
-    ["B", "وساطة الموردين", "SUPPLIER BROKERAGE", "ربط الاحتياج بالمورد الأنسب من حيث التوفر والموقع."],
-    ["C", "تنسيق الشراء والفوترة", "PURCHASE COORDINATION", "تسهيل المسار التجاري عندما لا تلائم الخيارات إجراءات الشركة مباشرة."],
-    ["D", "متابعة التنفيذ", "EXECUTION FOLLOW-UP", "تحديثات واضحة ومتابعة حتى الوصول إلى نقطة التسليم."]
+    ["A", "التوريد العاجل", "URGENT SOURCING", "بحث سريع ضمن الوقت المتاح."],
+    ["B", "وساطة الموردين", "SUPPLIER BROKERAGE", "ربط الطلب بالمورد الأنسب."],
+    ["C", "الشراء والفوترة", "PURCHASE COORDINATION", "تنسيق شراء قابل للفوترة."],
+    ["D", "متابعة التنفيذ", "EXECUTION FOLLOW-UP", "تحديثات حتى نقطة التسليم."]
   ];
   services.forEach((s, i) => {
     const col = i % 2;
@@ -511,7 +511,7 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
     addEn(slide, s[2], { x: x + 0.88, y: y + 0.3, w: 1.9, h: 0.2, fontSize: 7.8, bold: true, color: C.teal, charSpacing: 0.45 });
     addAr(slide, s[3], { x: x + 0.3, y: y + 0.78, w: 5.1, h: 0.48, fontSize: 12.6, color: i === 3 ? "D9E3E9" : "435768", valign: "top" });
   });
-  addBottomTag(slide, "دعم عملي قبل الفعالية وأثناءها.", "Practical support before and during the event.");
+  addBottomTag(slide, "أربع خدمات. نقطة اتصال واحدة.", "Four services. One point of contact.");
 }
 
 // 09 — Value ecosystem
@@ -537,7 +537,7 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
       addAr(slide, item, { x: x + 0.75, y: 3.96 + index * 0.58, w: 2.65, h: 0.3, fontSize: 13.3, color: i === 2 ? "153C48" : "E5ECF0" });
     });
   });
-  addBottomTag(slide, "نزيل الاحتكاك بين الاحتياج والتوفر.", "Removing friction between demand and availability.", true);
+  addBottomTag(slide, "نربط الطلب بالتوفر.", "Connecting demand to availability.", true);
 }
 
 // 10 — Business model
@@ -548,9 +548,9 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addSectionTitle(slide, "نموذج العمل", "Business model");
   addDivider(slide);
   const revenue = [
-    ["هامش الخدمة العاجلة", "URGENT SERVICE MARGIN", "يعكس أولوية الطلب وسرعة البحث والتنسيق."],
-    ["عمولة الوساطة", "BROKERAGE COMMISSION", "على عمليات التوريد التي تتم عبر شبكة الموردين."],
-    ["رسوم التنسيق", "COORDINATION FEE", "عند إدارة مسار الشراء والفوترة والمتابعة."]
+    ["هامش الخدمة العاجلة", "URGENT SERVICE MARGIN", "بحسب أولوية الطلب."],
+    ["عمولة الوساطة", "BROKERAGE COMMISSION", "على التوريد عبر الشبكة."],
+    ["رسوم التنسيق", "COORDINATION FEE", "للشراء والفوترة والمتابعة."]
   ];
   revenue.forEach((r, i) => {
     const y = 2.55 + i * 1.22;
@@ -561,8 +561,8 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
     addAr(slide, r[2], { x: 4.42, y: y + 0.19, w: 4.2, h: 0.4, fontSize: 13, color: i === 0 ? "DCE5EB" : "435768" });
   });
   slide.addShape(SH.RECTANGLE, { x: 0.72, y: 6.28, w: 11.9, h: 0.42, fill: { color: C.tealPale }, line: { color: C.tealPale } });
-  addAr(slide, "يعتمد السعر النهائي على طبيعة الطلب، درجة الاستعجال، التوفر، وموقع التسليم.", { x: 6.55, y: 6.37, w: 5.65, h: 0.2, fontSize: 10, color: C.tealDark });
-  addEn(slide, "Final pricing depends on urgency, availability, request details and delivery location.", { x: 1.05, y: 6.37, w: 5.35, h: 0.2, fontSize: 9.2, color: C.tealDark });
+  addAr(slide, "السعر بحسب الاستعجال، التوفر، وموقع التسليم.", { x: 6.55, y: 6.37, w: 5.65, h: 0.2, fontSize: 10, color: C.tealDark });
+  addEn(slide, "Pricing reflects urgency, availability and delivery location.", { x: 1.05, y: 6.37, w: 5.35, h: 0.2, fontSize: 9.2, color: C.tealDark });
 }
 
 // 11 — Sectors
@@ -587,7 +587,7 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
     addAr(slide, s[0], { x: x + 0.25, y: 4.0, w: 2.2, h: 0.6, fontSize: 16.2, bold: true, color: C.white, valign: "top" });
     addEn(slide, s[1], { x: x + 0.25, y: 4.78, w: 2.2, h: 0.32, fontSize: 7.8, bold: true, color: C.teal, charSpacing: 0.45, valign: "top" });
   });
-  addBottomTag(slide, "حيث تكون الدقة في الموعد جزءًا من جودة المنتج.", "Where being on time is part of product quality.", true);
+  addBottomTag(slide, "قطاعات تعتمد على سرعة التوريد.", "Sectors where sourcing speed matters.", true);
 }
 
 // 12 — Operating principles
@@ -598,9 +598,9 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addSectionTitle(slide, "مبادئ التشغيل", "Operating principles");
   addDivider(slide);
   const principles = [
-    ["01", "الشفافية", "TRANSPARENCY", "توضيح الخيارات والتكلفة والوقت قبل تأكيد الطلب."],
-    ["02", "المرونة", "FLEXIBILITY", "شبكة موردين تساعدنا على التعامل مع احتياجات متغيرة ومتنوعة."],
-    ["03", "المتابعة", "FOLLOW-THROUGH", "تحديثات واضحة ومراقبة للتنفيذ حتى نقطة التسليم."]
+    ["01", "الشفافية", "TRANSPARENCY", "خيارات وتكلفة ووقت واضح."],
+    ["02", "المرونة", "FLEXIBILITY", "بدائل تناسب الطلب المتغيّر."],
+    ["03", "المتابعة", "FOLLOW-THROUGH", "تحديثات حتى التسليم."]
   ];
   principles.forEach((p, i) => {
     const x = 0.72 + i * 4.05;
@@ -622,13 +622,13 @@ function addCard(slide, { x, y, w, h, number, arTitle, enTitle, arText, enText, 
   addLogo(slide, true, 0.77, 0.53, 2.62);
   addAr(slide, "لديك طلب لا يحتمل الانتظار؟", { x: 6.15, y: 1.85, w: 6.05, h: 0.74, fontSize: 29, bold: true, color: C.navyDark });
   addEn(slide, "HAVE A REQUEST THAT CANNOT WAIT?", { x: 0.75, y: 1.97, w: 5.0, h: 0.35, fontSize: 13, bold: true, color: C.navyDark, charSpacing: 0.8 });
-  addAr(slide, "أرسل المنتج، الكمية، موقع التسليم والموعد المطلوب. سنبدأ من الوقت المتاح.", { x: 6.15, y: 3.0, w: 6.05, h: 0.95, fontSize: 18, color: "153C48", valign: "top" });
-  addEn(slide, "Share the item, quantity, delivery location and required time. We will start with the time available.", { x: 0.75, y: 3.0, w: 5.05, h: 0.82, fontSize: 14, color: "153C48", valign: "top" });
-  slide.addShape(SH.LINE, { x: 0.75, y: 4.5, w: 11.45, h: 0, line: { color: C.navyDark, transparency: 35, width: 1 } });
-  addAr(slide, "عبد العزيز الزعاقي", { x: 8.5, y: 4.85, w: 3.7, h: 0.4, fontSize: 18, bold: true, color: C.navyDark });
-  addEn(slide, "CHIEF EXECUTIVE OFFICER", { x: 0.75, y: 4.91, w: 2.65, h: 0.25, fontSize: 9.5, bold: true, color: C.navyDark, charSpacing: 0.65 });
-  addEn(slide, "+966 55 045 4848", { x: 0.75, y: 5.58, w: 2.6, h: 0.32, fontSize: 14, bold: true, color: C.navyDark });
-  addEn(slide, "A.alzaaqi@LastMinute.com", { x: 3.75, y: 5.58, w: 3.4, h: 0.32, fontSize: 14, bold: true, color: C.navyDark });
+  addAr(slide, "أرسل المنتج، الكمية، الموقع والموعد. نبدأ فورًا.", { x: 6.15, y: 3.0, w: 6.05, h: 0.95, fontSize: 20, color: "153C48", valign: "top" });
+  addEn(slide, "Share the item, quantity, location and deadline. We start now.", { x: 0.75, y: 3.0, w: 5.05, h: 0.82, fontSize: 16, color: "153C48", valign: "top" });
+  slide.addShape(SH.LINE, { x: 0.75, y: 4.18, w: 11.45, h: 0, line: { color: C.navyDark, transparency: 35, width: 1 } });
+  addAr(slide, "عبد العزيز الزعاقي", { x: 8.5, y: 4.5, w: 3.7, h: 0.4, fontSize: 18, bold: true, color: C.navyDark });
+  addEn(slide, "CONTACT", { x: 0.75, y: 4.56, w: 2.65, h: 0.25, fontSize: 9.5, bold: true, color: C.navyDark, charSpacing: 0.65 });
+  addEn(slide, "+966 55 045 4848", { x: 0.75, y: 5.2, w: 2.6, h: 0.32, fontSize: 14, bold: true, color: C.navyDark });
+  addEn(slide, "A.alzaaqi@LastMinute.com", { x: 3.75, y: 5.2, w: 3.4, h: 0.32, fontSize: 14, bold: true, color: C.navyDark });
   addAr(slide, "وساطة توريد مرنة للفعاليات والشركات", { x: 7.4, y: 6.62, w: 4.8, h: 0.26, fontSize: 11.5, bold: true, color: C.navyDark });
   addEn(slide, "LAST MINUTE", { x: 0.75, y: 6.68, w: 2.0, h: 0.22, fontSize: 9.5, bold: true, color: C.navyDark, charSpacing: 1.3 });
 }
